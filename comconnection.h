@@ -20,6 +20,8 @@ public slots:
     void connectPort(QString portName);
     void control(int value);
     void disconnect();
+    void read();
+    void procData();
 signals:
 private:
     QSerialPort *port;
